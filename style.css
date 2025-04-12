@@ -196,6 +196,8 @@ section .title::after{
 #dp_image{
     border-radius: 20px;
     border: 2 px solid black;
+    width: 350px;
+    height: 400px;
 }
 .home .home-content .text-3 span{
     color: crimson;
@@ -220,7 +222,7 @@ section .title::after{
 
 /* about section styling */
 .about .title::after{
-    content: "who i am";
+    content: "who I am";
 }
 .about .about-content .left{
     width: 45%;
@@ -274,7 +276,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i made";
+    content: "what I made";
 }
 .services .serv-content .card{
     width: calc(35% - 20px);
@@ -311,7 +313,7 @@ section .title::after{
 /* skills section styling */
 
 .skills .title::after{
-    content: "what i know";
+    content: "what I know";
 }
 .skills .skills-content .column{
     width: calc(50% - 30px);
